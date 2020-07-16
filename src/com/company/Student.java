@@ -14,6 +14,9 @@ public class Student {
 
 
     public Student() {
+
+
+        // Student Creator.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter student first name: ");
         this.firstName = scanner.nextLine();
@@ -25,5 +28,5 @@ public class Student {
         this.gradeYear = scanner.nextInt();
 
         System.out.println(this.firstName + " " + this.lastName + " " + this.gradeYear);
-    }
+    } //no argument constructor.
 }
